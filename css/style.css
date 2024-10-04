@@ -1,0 +1,22 @@
+header {
+    text-align: center;
+    padding: 15px 0px;
+}
+.logo a {
+    display: inline-block;
+    height: 100%;
+}
+
+.map {
+    text-align: center;
+    padding: 0px 5px;
+}
+.map img {
+    width: 100%;
+}
+
+footer p {
+    text-align: center;
+    font-size: 10px;
+}
+
