@@ -41,6 +41,20 @@
     gap: 3px;
 }
 
+.info {
+    text-align: center;
+    padding-top: 10px;
+}
+.info table {
+    margin: auto;
+    width: 350px;
+    border-spacing: 0;
+}
+.info th, .info td {
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
 @media (min-width: 800px) {
     .reviews ul {
         display: flex;
