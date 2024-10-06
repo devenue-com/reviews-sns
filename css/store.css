@@ -1,0 +1,12 @@
+.overview {
+    text-align: center;
+}
+.store-image {
+    padding: 5px 0;
+}
+.store-image img {
+    border-radius: 8px;
+}
+.overview p {
+    line-height: 30px;
+}
