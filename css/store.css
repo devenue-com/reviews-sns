@@ -41,3 +41,11 @@
     gap: 3px;
 }
 
+@media (min-width: 800px) {
+    .reviews ul {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 736px;
+        margin: auto;
+    }
+}
