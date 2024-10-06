@@ -10,3 +10,34 @@
 .overview p {
     line-height: 30px;
 }
+
+.reviews {
+    padding-top: 10px;
+}
+.review, .review-supplement {
+    display: flex;
+}
+.review {
+    gap: 5px;
+    padding-bottom: 10px;
+}
+.reviews li {
+    margin: auto;
+    margin-bottom: 10px;
+    width: 350px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+}
+.reviews p {
+    overflow-wrap: anywhere;
+    text-align: justify;
+}
+.review-supplement {
+    justify-content: space-between;
+}
+.review-supplement div {
+    display: flex;
+    gap: 3px;
+}
+

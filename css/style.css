@@ -9,6 +9,10 @@ h2 {
     line-height: 40px;
 }
 
+li {
+    list-style: none;
+}
+
 /* ヘッダー */
 header {
     text-align: center;
