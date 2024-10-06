@@ -1,0 +1,19 @@
+body {
+    font-family: sans-serif;
+}
+
+/* ヘッダー */
+header {
+    text-align: center;
+    padding: 10px 0px;
+}
+
+/* フッター */
+footer {
+    text-align: center;
+}
+small {
+    display: inline-block;
+    font-size: 13px;
+    padding: 5px 0px;
+}
