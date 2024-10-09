@@ -22,6 +22,10 @@
 .modal-close {
   font-size: 30px;
 }
+.modal-content h2 {
+  font-size: 15px;
+}
+
 .profile,
 .profile-detail {
   display: flex;
@@ -31,5 +35,18 @@
 }
 .profile img {
   display: block;
+  max-height: 20px;
+  margin-top: 10px;
+}
+.profile-detail > img {
   max-height: 40px;
+  margin-top: 0;
+  margin-right: 3px;
+}
+.profile-text div {
+  font-size: 15px;
+}
+.profile-text p {
+  color: #ddd;
+  font-size: 10px;
 }
