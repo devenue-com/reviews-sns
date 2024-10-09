@@ -50,3 +50,23 @@
   color: #ddd;
   font-size: 10px;
 }
+
+.stars span{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+.stars input[type='radio']{
+  display: none;
+}
+.stars label{
+  color: #D2D2D2;
+  font-size: 30px;
+  padding: 0 5px;
+  cursor: pointer;
+}
+.stars label:hover,
+.stars label:hover ~ label,
+.stars input[type='radio']:checked ~ label{
+  color: #F8C601;
+}
