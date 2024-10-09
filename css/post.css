@@ -47,14 +47,15 @@
   font-size: 15px;
 }
 .profile-text p {
-  color: #ddd;
+  color: #5e5e5e;
   font-size: 10px;
 }
 
 .stars span{
   display: flex;
   flex-direction: row-reverse;
-  justify-content: space-between;
+  justify-content: space-around;
+  padding: 3px 0;
 }
 .stars input[type='radio']{
   display: none;
@@ -69,4 +70,13 @@
 .stars label:hover ~ label,
 .stars input[type='radio']:checked ~ label{
   color: #F8C601;
+}
+textarea {
+  width: 100%;
+  border: 1px solid #5e5e5e;
+  border-radius: 5px;
+  padding: 5px;
+}
+textarea::placeholder {
+  font-size: 10px;
 }
