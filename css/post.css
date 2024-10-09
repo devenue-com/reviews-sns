@@ -80,3 +80,20 @@ textarea {
 textarea::placeholder {
   font-size: 10px;
 }
+.discount {
+  padding: 5px 0;
+}
+.discount div {
+  font-size: 15px;
+}
+.discount label, .discount label {
+  font-size: 12px;
+}
+
+.favorite {
+  padding: 5px 0;
+}
+.favorite div {
+  font-size: 15px;
+}
+
