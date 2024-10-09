@@ -12,10 +12,24 @@
   justify-content: center;
   align-items: center;
 }
-
 .modal-content {
   background: #ffff;
   width: 90%;
   height: 90%;
   border-radius: 10px;
+  padding: 0 10px;
+}
+.modal-close {
+  font-size: 30px;
+}
+.profile,
+.profile-detail {
+  display: flex;
+}
+.profile {
+  justify-content: space-between;
+}
+.profile img {
+  display: block;
+  max-height: 40px;
 }
