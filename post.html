@@ -21,9 +21,12 @@
     <main>
         <div class="modal">
             <div class="modal-content">
-                <span class="modal-close">×</span>
-                <h2>ヤオコー川崎桝形店</h1>
-                <div class="profile">
+                <div class="post-header">
+                  <span class="modal-close">×</span>
+                  <h2>ヤオコー川崎桝形店</h1>
+                </div>
+                <div class="post-content">
+                  <div class="profile">
                     <div class="profile-detail">
                         <img src="https://placehold.jp/40x40.png" alt="プロフィール画像">
                         <div class="profile-text">
@@ -32,40 +35,41 @@
                         </div>
                     </div>
                     <img src="https://placehold.jp/20x20.png" alt="icon画像">
+                  </div>
+                  <form action="post.html" method="post">
+                    <div class="stars">
+                      <span>
+                          <input id="star05" type="radio" name="star05"><label for="star05">★</label>
+                          <input id="star04" type="radio" name="star04"><label for="star04">★</label>
+                          <input id="star03" type="radio" name="star03"><label for="star03">★</label>
+                          <input id="star02" type="radio" name="star02"><label for="star02">★</label>
+                          <input id="star01" type="radio" name="star01"><label for="star01">★</label>
+                      </span>
+                    </div>
+                    <textarea name="review" placeholder="この場所での自分の体験や感想を共有しましょう"></textarea>
+                    <div class="discount">
+                      <div>お惣菜の割引タイミング</div>
+                      <label for="discount">2割引 </label>
+                      <input type="time" id="discount" name="discount" required />
+                    </div>
+                    <!-- TODO: jqueryで実装？ -->
+                    <div class="favorite">
+                      <div>ヤオコー のあなたのお気に入り惣菜</div>
+                      <div class="favorite-images">
+                        <img src="https://placehold.jp/100x100.png" alt="お気に入り画像">
+                        <img src="https://placehold.jp/100x100.png" alt="お気に入り画像">
+                      </div>
+                    </div>
+                    <div class="image">
+                      <div>お気にり惣菜の写真をアップロード</div>
+                      <div class="image-upload">
+                        <img src="https://placehold.jp/12x12.png" alt="お気に入り画像">
+                        <p>写真や動画を追加</p>
+                      </div>
+                    </div>
+                    <input type="submit" value="送信">
+                  </form>
                 </div>
-                <form action="post.html" method="post">
-                  <div class="stars">
-                    <span>
-                        <input id="star05" type="radio" name="star05"><label for="star05">★</label>
-                        <input id="star04" type="radio" name="star04"><label for="star04">★</label>
-                        <input id="star03" type="radio" name="star03"><label for="star03">★</label>
-                        <input id="star02" type="radio" name="star02"><label for="star02">★</label>
-                        <input id="star01" type="radio" name="star01"><label for="star01">★</label>
-                    </span>
-                  </div>
-                  <textarea name="review" placeholder="この場所での自分の体験や感想を共有しましょう"></textarea>
-                  <div class="discount">
-                    <div>お惣菜の割引タイミング</div>
-                    <label for="discount">2割引 </label>
-                    <input type="time" id="discount" name="discount" required />
-                  </div>
-                  <!-- TODO: jqueryで実装？ -->
-                  <div class="favorite">
-                    <div>ヤオコー のあなたのお気に入り惣菜</div>
-                    <div class="favorite-images">
-                      <img src="https://placehold.jp/100x100.png" alt="お気に入り画像">
-                      <img src="https://placehold.jp/100x100.png" alt="お気に入り画像">
-                    </div>
-                  </div>
-                  <div class="image">
-                    <div>お気にり惣菜の写真をアップロード</div>
-                    <div class="image-upload">
-                      <img src="https://placehold.jp/12x12.png" alt="お気に入り画像">
-                      <p>写真や動画を追加</p>
-                    </div>
-                  </div>
-                <input type="submit" value="送信">
-              </form>
             </div>
         </div>
     </main>
