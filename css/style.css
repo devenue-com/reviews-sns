@@ -95,7 +95,7 @@ footer li {
   width: 100%;
   border-right: 1px solid #ddd;
 }
-footer li:last-of-type {
+footer li:last-child {
   border-right: none;
 }
 footer a {
