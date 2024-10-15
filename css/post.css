@@ -1,4 +1,6 @@
 .modal-close {
+  display: block;
+  text-align: left;
   font-size: 30px;
 }
 .modal-content h2 {
@@ -23,6 +25,9 @@
   margin-right: 3px;
 }
 .profile-text div {
+  text-align: left;
+}
+.profile-text div {
   font-size: 15px;
 }
 .profile-text p {
@@ -41,7 +46,7 @@
 }
 .stars label {
   color: #d2d2d2;
-  font-size: 30px;
+  font-size: 25px;
   padding: 0 5px;
   cursor: pointer;
 }
@@ -61,6 +66,7 @@ textarea::placeholder {
 }
 .discount {
   padding: 5px 0;
+  text-align: left;
 }
 .discount div {
   font-size: 15px;
