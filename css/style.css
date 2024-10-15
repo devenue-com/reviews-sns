@@ -78,9 +78,28 @@ main {
 footer {
   text-align: center;
 }
+footer nav {
+  width: 100%;
+  position: fixed;
+  bottom: 5px;
+}
+
 footer ul {
   display: flex;
+  background-color: #fff;
   border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 0 15px;
+  padding: 5px 0;
+  z-index: 100;
+}
+footer li {
+  width: 29%;
+  border-right: 1px solid #ddd;
+}
+footer a {
+  font-size: 10px;
+  color: #000;
 }
 
 /* モーダル */
