@@ -78,6 +78,10 @@ main {
 footer {
   text-align: center;
 }
+footer ul {
+  display: flex;
+  border: 1px solid #ddd;
+}
 
 /* モーダル */
 .modal {
