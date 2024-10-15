@@ -19,13 +19,56 @@ small {
     padding: 5px 0px;
 }
 
-.pc {
+a {
+    text-decoration: none;
+}
+
+.pc-show {
     display: none;
 }
+
 /* ヘッダー */
 header {
     text-align: center;
     padding: 10px 0px;
+}
+
+main {
+    text-align: center;
+}
+.store {
+    display: block;
+    padding: 5px 0;
+}
+.store h2, .store p {
+    color: #000;
+}
+.store img {
+    border-radius: 5px;
+}
+.store-detail, .store-review {
+    display: flex;
+    padding: 0 15px;
+    margin-top: 10px;
+}
+.store-detail {
+    display: flex;
+}
+.store-info {
+    width: 100%;
+    text-emphasis: center;
+}
+.stars span{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    padding: 3px 0;
+}
+.stars input[type='radio']{
+    display: none;
+}
+.stars label {
+    color: #F8C601;
 }
 
 /* フッター */
@@ -34,14 +77,28 @@ footer {
 }
 
 @media (min-width: 800px) {
-    .sp {
+    .sp-show {
         display: none;
     }
-    .pc {
-        display: inline-block;
+
+    .pc-show {
+        display: block;
+        margin: auto;
     }
+
     h2 {
         font-size: 30px;
         line-height: 50px;
+    }
+
+    .store {
+        margin: auto;
+        max-width: 800px;
+    }
+
+    footer {
+        small {
+            line-height: 50px;
+        }
     }
 }
