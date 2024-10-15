@@ -1,0 +1,73 @@
+.modal {
+  display: none;
+}
+
+main {
+  padding: 0 10px;
+}
+
+.rank-header {
+  text-align: left;
+  line-height: 40px;
+}
+
+.reviews,
+.ranks {
+  padding-top: 10px;
+}
+.review,
+.review-supplement {
+  display: flex;
+}
+.review {
+  gap: 5px;
+  padding-bottom: 10px;
+}
+.reviews li,
+.ranks li {
+  margin: auto;
+  margin-bottom: 10px;
+  width: 350px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+}
+.reviews p {
+  overflow-wrap: anywhere;
+  text-align: justify;
+}
+.review-supplement {
+  justify-content: space-between;
+}
+.review-supplement div {
+  display: flex;
+  gap: 3px;
+}
+
+@media (min-width: 800px) {
+  main {
+    max-width: 736px;
+    margin: auto;
+    padding: 0 50px;
+  }
+  .rank-header,
+  .reviews {
+    padding: 20px 0;
+  }
+  .rank-header > div {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    line-height: 60px;
+  }
+  .rank-header > div img {
+    margin: 0;
+  }
+  .images {
+    gap: 10px;
+  }
+  .reviews li,
+  .ranks li {
+    width: 100%;
+  }
+}

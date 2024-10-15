@@ -78,6 +78,7 @@ textarea::placeholder {
 
 .favorite {
   padding: 5px 0;
+  text-align: left;
 }
 .favorite div {
   font-size: 15px;

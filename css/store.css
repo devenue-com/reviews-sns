@@ -2,22 +2,9 @@ h3 {
   color: #000;
   font-size: 18px;
 }
+
 .modal {
   display: none;
-}
-.modal-content {
-  text-align: center;
-  height: 150px;
-  padding-top: 25px;
-}
-.modal-content h2 {
-  font-size: 14px;
-}
-.modal-content button {
-  color: #fff;
-  background-color: #2d70eb;
-  border-radius: 5px;
-  padding: 10px 50px;
 }
 
 main {
