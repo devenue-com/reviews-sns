@@ -1,3 +1,6 @@
+.modal-content {
+  height: 90vh;
+}
 .modal-close {
   display: block;
   text-align: left;
