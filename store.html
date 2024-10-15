@@ -2,12 +2,9 @@
 <html lang="ja">
     <head>
         <meta charset="utf-8">
-        <!-- TODO; description作成 -->
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- TODO: タイトルの決定 -->
         <title>test</title>
-        <!-- TODO: ファビコンの挿入 -->
         <link rel="icon" type="" href="">
         <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
         <link rel="stylesheet" href="css/style.css">
@@ -25,11 +22,21 @@
             <div class="overview">
                 <h2>オーケーストア八王子店</h2>
                 <div class="store-image">
-                    <img class="sp" src="https://placehold.jp/200x200.png" alt="店舗画像">
-                    <img class="pc" src="https://placehold.jp/400x400.png" alt="店舗画像">
+                    <img class="sp-show" src="https://placehold.jp/200x200.png" alt="店舗画像">
+                    <img class="pc-show" src="https://placehold.jp/400x400.png" alt="店舗画像">
                 </div>
-                <!-- TODO: 星マーク -->
-                <p>お惣菜評価</p>
+                 <div class="store-assessment">
+                    <p>お惣菜評価</p>
+                    <div class="stars">
+                        <span>
+                            <input id="star05" type="radio" name="star05"><label for="star05">★</label>
+                            <input id="star04" type="radio" name="star04"><label for="star04">★</label>
+                            <input id="star03" type="radio" name="star03"><label for="star03">★</label>
+                            <input id="star02" type="radio" name="star02"><label for="star02">★</label>
+                            <input id="star01" type="radio" name="star01"><label for="star01">★</label>
+                        </span>
+                    </div>
+                </div>
                 <ul>
                     <li>2割引になる時間帯: 20時</li>
                     <li>半額になる時間帯: 21時</li>
@@ -107,7 +114,20 @@
                     </li>
                 </ul>
             </div>
-            <!-- TODO: お惣菜ランキング作成 -->
+            <div class="ranks">
+                <h2>お惣菜ランキング</h2>
+                <ul>
+                    <li>
+                        <div class="rank">
+                            <img src="https://placehold.jp/100x100.png" alt="口コミ画像">
+                            <div>
+                                <img src="https://placehold.jp/10x10.png" alt="口コミ画像">
+                                <p>1位: 唐揚げ</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
             <div class="info">
                 <a href="#">
                     <h3>全国のOKストア情報を見る</h3>
@@ -129,7 +149,6 @@
             </div>
         </main>
         <footer>
-            <!-- Copyrightの作成 -->
             <small>Copyright &copy; 2024 All rights reserved.</small>
         </footer>
     </body>

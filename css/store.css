@@ -1,17 +1,31 @@
+main {
+    max-width: 736px;
+    margin: auto;
+}
 .overview {
     text-align: center;
 }
 .store-image {
     padding: 5px 0;
 }
+.store-assessment, .overview p {
+    line-height: 35px;
+}
+.store-assessment {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+.stars span {
+    width: 230px;
+}
 .store-image img {
     border-radius: 8px;
 }
 .overview p {
-    line-height: 30px;
+    padding: 3px 0;
 }
-
-.reviews {
+.reviews, .ranks {
     padding-top: 10px;
 }
 .review, .review-supplement {
@@ -21,7 +35,7 @@
     gap: 5px;
     padding-bottom: 10px;
 }
-.reviews li {
+.reviews li, .ranks li {
     margin: auto;
     margin-bottom: 10px;
     width: 350px;
@@ -41,6 +55,17 @@
     gap: 3px;
 }
 
+.rank, .rank div {
+    display: flex;
+    align-items: center;
+}
+.rank img {
+    display: block;
+}
+.rank div {
+    margin-left: 10px;
+}
+
 .info {
     text-align: center;
     padding-top: 10px;
@@ -56,6 +81,9 @@
 }
 
 @media (min-width: 800px) {
+    .store-assessment {
+        justify-content: center;
+    }
     .reviews ul {
         display: flex;
         flex-wrap: wrap;
