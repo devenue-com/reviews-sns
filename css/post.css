@@ -1,24 +1,3 @@
-.modal {
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  height: 100vh;
-  height: 100dvh;
-  width: 100%;
-  overflow: auto;
-  background-color: rgba(0, 0, 0, 0.5);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.modal-content {
-  background: #ffff;
-  width: 90%;
-  height: 90%;
-  border-radius: 10px;
-  padding: 0 10px;
-}
 .modal-close {
   font-size: 30px;
 }
@@ -51,25 +30,25 @@
   font-size: 10px;
 }
 
-.stars span{
+.stars span {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-around;
   padding: 3px 0;
 }
-.stars input[type='radio']{
+.stars input[type="radio"] {
   display: none;
 }
-.stars label{
-  color: #D2D2D2;
+.stars label {
+  color: #d2d2d2;
   font-size: 30px;
   padding: 0 5px;
   cursor: pointer;
 }
 .stars label:hover,
 .stars label:hover ~ label,
-.stars input[type='radio']:checked ~ label{
-  color: #F8C601;
+.stars input[type="radio"]:checked ~ label {
+  color: #f8c601;
 }
 textarea {
   width: 100%;
@@ -86,7 +65,8 @@ textarea::placeholder {
 .discount div {
   font-size: 15px;
 }
-.discount label, .discount label {
+.discount label,
+.discount label {
   font-size: 12px;
 }
 
@@ -117,13 +97,13 @@ textarea::placeholder {
   font-size: 12px;
 }
 
-input[type='submit'] {
+input[type="submit"] {
   color: #fff;
-  background-color: #2D70EB;
+  background-color: #2d70eb;
   display: block;
   display: flex;
   justify-content: center;
-  border: 1px solid #2D70EB;
+  border: 1px solid #2d70eb;
   border-radius: 15px;
   font-size: 12px;
   width: 100%;
@@ -136,5 +116,4 @@ input[type='submit'] {
     width: 550px;
     padding: 0 20px;
   }
-
 }
