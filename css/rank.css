@@ -73,6 +73,10 @@
   .rank-header > div img {
     margin: 0;
   }
+  .rank-header .images img {
+    max-width: 400px;
+    border-radius: 10px;
+  }
   .images {
     gap: 10px;
   }
