@@ -76,18 +76,19 @@ main {
   width: 100%;
   text-emphasis: center;
 }
-.stars span {
+.store-info .stars span {
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
   gap: 10px;
   padding: 3px 0;
 }
-.stars input[type="radio"] {
+.store-info .stars input[type="radio"] {
   display: none;
 }
-.stars label {
+.store-info .stars label {
   color: #f8c601;
+  font-size: 15px;
 }
 
 /* フッター */
@@ -123,6 +124,13 @@ footer a {
 }
 
 @media (min-width: 800px) {
+  .logo img:hover,
+  .store h2 a:hover,
+  .store-review:hover,
+  footer a:hover {
+    opacity: 0.5;
+  }
+
   .sp-show {
     display: none;
   }
@@ -151,13 +159,15 @@ footer a {
     justify-content: space-between;
     align-items: center;
   }
-  .store-detail img {
+  .store-detail img,
+  .store-detail-empty {
+    width: 200px;
     max-width: 200px;
   }
   .store-info {
-    max-width: 50%;
+    max-width: 30%;
   }
-  .stars label {
+  .store-info .stars label {
     font-size: 30px;
   }
   .store-info p {
