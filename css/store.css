@@ -129,6 +129,29 @@ main {
   margin: 5px 0;
 }
 
+.premium-registration {
+  background: #fff;
+  position: fixed;
+  bottom: 55px;
+  left: 0;
+  right: 0;
+  height: 100px;
+  margin: 0 1%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.premium-registration h2 {
+  font-size: 16px;
+}
+.premium-registration button {
+  display: block;
+  margin: auto;
+  color: #fff;
+  background-color: #2d70eb;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
 @media (min-width: 800px) {
   h3 {
     font-size: 20px;
