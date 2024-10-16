@@ -33,9 +33,13 @@ header {
   text-align: center;
   padding: 10px 0px;
 }
+.logo img {
+  max-width: 50px;
+}
 
 main {
   text-align: center;
+  padding-bottom: 50px;
 }
 .store {
   display: block;
@@ -56,6 +60,16 @@ main {
 }
 .store-detail {
   display: flex;
+  margin-bottom: 20px;
+}
+.store-detail img {
+  max-width: 100px;
+}
+.store-review {
+  align-items: center;
+}
+.store-review img {
+  max-width: 70px;
 }
 .store-info {
   width: 100%;
@@ -86,6 +100,7 @@ footer nav {
 
 footer ul {
   display: flex;
+  align-items: center;
   background-color: #fff;
   border-top: 1px solid #ddd;
   padding: 5px 0;
@@ -144,20 +159,42 @@ footer a {
   .sp-show {
     display: none;
   }
-
   .pc-show {
     display: block;
     margin: auto;
   }
-
   h2 {
     font-size: 30px;
     line-height: 50px;
   }
-
+  .logo img {
+    max-width: 80px;
+  }
   .store {
     margin: auto;
     max-width: 800px;
+    padding: 20px 0;
+  }
+  .store-detail {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .store-detail img {
+    max-width: 200px;
+  }
+  .store-info {
+    max-width: 50%;
+  }
+  .store-review {
+    gap: 10px;
+  }
+
+  .store-review img {
+    max-width: 100px;
+  }
+  .store-review .pc-show {
+    display: inline;
   }
 
   footer {
