@@ -179,17 +179,21 @@ footer a {
     justify-content: center;
     align-items: center;
   }
-
   .store-detail img {
     max-width: 200px;
   }
   .store-info {
     max-width: 50%;
   }
+  .stars label {
+    font-size: 30px;
+  }
+  .store-info p {
+    line-height: 30px;
+  }
   .store-review {
     gap: 10px;
   }
-
   .store-review img {
     max-width: 100px;
   }
