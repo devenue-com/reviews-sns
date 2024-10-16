@@ -169,13 +169,18 @@ footer a {
   .logo img {
     max-width: 80px;
   }
+  main {
+    max-width: 736px;
+  }
+  main iframe {
+    width: 100%;
+  }
+
   .store {
     margin: auto;
-    max-width: 800px;
-    padding: 20px 0;
   }
   .store-detail {
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
   }
   .store-detail img {
