@@ -17,6 +17,7 @@
 .profile,
 .profile-detail {
   display: flex;
+  align-items: center;
 }
 .profile {
   justify-content: space-between;
@@ -24,7 +25,9 @@
 .profile img {
   display: block;
   max-height: 20px;
-  margin-top: 10px;
+}
+.profile-detail {
+  gap: 5px;
 }
 .profile-detail > img {
   max-height: 40px;
@@ -89,6 +92,13 @@ textarea::placeholder {
 }
 .favorite div {
   font-size: 15px;
+}
+.favorite-images {
+  display: flex;
+  overflow: scroll;
+}
+.favorite-images img {
+  max-width: 100px;
 }
 
 .image {
