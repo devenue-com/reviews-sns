@@ -18,17 +18,35 @@ main {
 .store-image {
   padding: 5px 0;
 }
+.store-image img {
+  max-width: 50%;
+}
+
 .store-assessment,
 .overview p {
   line-height: 35px;
 }
 .store-assessment {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 10px;
   padding: 0 30px;
 }
+
 .stars span {
-  width: 230px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  gap: 10px;
+  padding: 3px 0;
+}
+.stars input[type="radio"] {
+  display: none;
+}
+.stars label {
+  cursor: default;
+  color: #f8c601;
+  font-size: 15px;
 }
 .store-image img {
   border-radius: 8px;
@@ -48,6 +66,10 @@ main {
   gap: 5px;
   padding-bottom: 10px;
 }
+.review img {
+  max-width: 70px;
+}
+
 .reviews li,
 .ranks li {
   margin: auto;
@@ -66,6 +88,7 @@ main {
 }
 .review-supplement div {
   display: flex;
+  align-items: center;
   gap: 3px;
 }
 
@@ -76,6 +99,7 @@ main {
 }
 .rank img {
   display: block;
+  max-width: 100px;
 }
 .rank div {
   margin-left: 10px;
@@ -102,10 +126,10 @@ main {
   width: 75px;
 }
 .info td a {
-  color: #0000ee;
+  color: #2d70eb;
 }
 .info td span a {
-  border: 1px solid #0000ee;
+  border: 1px solid #2d70eb;
   border-radius: 5px;
   display: inline-block;
   padding: 5px;
