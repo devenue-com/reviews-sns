@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>test</title>
     <link rel="icon" type="" href="" />
+    <link
+      href="https://use.fontawesome.com/releases/v6.2.0/css/all.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/rank.css" />
@@ -19,30 +23,23 @@
     </div>
     <header>
       <div class="logo">
-        <a href="">
-          <img src="https://placehold.jp/60x60.png" alt="ロゴ" />
+        <a href="index.html">
+          <img src="img/logo.png" alt="ロゴ" />
         </a>
       </div>
     </header>
     <main>
-      <!-- TODO: jqueryで実装？ -->
       <div class="rank-header">
         <div>
-          <img
-            src="https://placehold.jp/10x10.png"
-            alt="ランキング入りの惣菜画像"
-            class="sp-show"
-          />
-          <img
-            src="https://placehold.jp/30x30.png"
-            alt="ランキング入りの惣菜画像"
-            class="pc-show"
-          />
+          <i class="fa-solid fa-ranking-star"></i>
           1位: 唐揚げ
         </div>
         <div class="images">
-          <img src="https://placehold.jp/100x100.png" alt="お気に入り画像" />
-          <img src="https://placehold.jp/100x100.png" alt="お気に入り画像" />
+          <img src="img/karaage.jpg" alt="お気に入り画像" />
+          <img src="img/karaage.jpg" alt="お気に入り画像" />
+          <img src="img/karaage.jpg" alt="お気に入り画像" />
+          <img src="img/karaage.jpg" alt="お気に入り画像" />
+          <img src="img/karaage.jpg" alt="お気に入り画像" />
         </div>
       </div>
       <div class="reviews">
@@ -51,7 +48,7 @@
           <li>
             <div class="review">
               <div>
-                <img src="https://placehold.jp/50x50.png" alt="口コミ画像" />
+                <img src="img/karaage.jpg" alt="口コミ画像" />
               </div>
               <p>
                 ここは唐揚げがまじでうまい。 正直ここの唐揚げしか買わない。
@@ -60,11 +57,11 @@
             </div>
             <div class="review-supplement">
               <div class="review-person">
-                <img src="https://placehold.jp/25x25.png" alt="" />
+                <i class="fa-solid fa-user"></i>
                 <small>高橋お惣菜ラブ</small>
               </div>
               <div class="review-person">
-                <img src="https://placehold.jp/25x25.png" alt="" />
+                <i class="far fa-thumbs-up"></i>
                 <small>参考になった（82）</small>
               </div>
             </div>
@@ -72,7 +69,7 @@
           <li>
             <div class="review">
               <div>
-                <img src="https://placehold.jp/50x50.png" alt="口コミ画像" />
+                <img src="img/karaage.jpg" alt="口コミ画像" />
               </div>
               <p>
                 ここは唐揚げがまじでうまい。 正直ここの唐揚げしか買わない。
@@ -81,11 +78,11 @@
             </div>
             <div class="review-supplement">
               <div class="review-person">
-                <img src="https://placehold.jp/25x25.png" alt="" />
+                <i class="fa-solid fa-user"></i>
                 <small>高橋お惣菜ラブ</small>
               </div>
               <div class="review-person">
-                <img src="https://placehold.jp/25x25.png" alt="" />
+                <i class="far fa-thumbs-up"></i>
                 <small>参考になった（82）</small>
               </div>
             </div>
@@ -93,7 +90,7 @@
           <li>
             <div class="review">
               <div>
-                <img src="https://placehold.jp/50x50.png" alt="口コミ画像" />
+                <img src="img/karaage.jpg" alt="口コミ画像" />
               </div>
               <p>
                 ここは唐揚げがまじでうまい。 正直ここの唐揚げしか買わない。
@@ -102,11 +99,11 @@
             </div>
             <div class="review-supplement">
               <div class="review-person">
-                <img src="https://placehold.jp/25x25.png" alt="" />
+                <i class="fa-solid fa-user"></i>
                 <small>高橋お惣菜ラブ</small>
               </div>
               <div class="review-person">
-                <img src="https://placehold.jp/25x25.png" alt="" />
+                <i class="far fa-thumbs-up"></i>
                 <small>参考になった（82）</small>
               </div>
             </div>
@@ -115,6 +112,40 @@
       </div>
     </main>
     <footer>
+      <nav>
+        <ul>
+          <li>
+            <a href="#">
+              <i class="fas fa-home fa-2x"></i>
+              <div>HOME</div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa-solid fa-star fa-2x"></i>
+              <div>お気に入り</div>
+            </a>
+          </li>
+          <li>
+            <a href="#" id="modal-open">
+              <i class="fa-solid fa-plus fa-2x"></i>
+              <div>投稿</div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa-solid fa-p fa-2x"></i>
+              <div>プレミアム</div>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa-solid fa-user fa-2x"></i>
+              <div>マイページ</div>
+            </a>
+          </li>
+        </ul>
+      </nav>
       <small>Copyright &copy; 2024 All rights reserved.</small>
     </footer>
   </body>

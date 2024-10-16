@@ -2,13 +2,18 @@
   display: none;
 }
 
-main {
-  padding: 0 10px;
-}
-
 .rank-header {
   text-align: left;
   line-height: 40px;
+}
+.rank-header .images {
+  display: flex;
+  gap: 10px;
+  overflow: scroll;
+}
+.rank-header .images img {
+  max-width: 200px;
+  border-radius: 5px;
 }
 
 .reviews,
@@ -23,15 +28,19 @@ main {
   gap: 5px;
   padding-bottom: 10px;
 }
+.review img {
+  max-width: 65px;
+}
+
 .reviews li,
 .ranks li {
   margin: auto;
   margin-bottom: 10px;
-  width: 350px;
   border: 2px solid #ddd;
   border-radius: 5px;
   padding: 10px;
 }
+
 .reviews p {
   overflow-wrap: anywhere;
   text-align: justify;
@@ -41,6 +50,7 @@ main {
 }
 .review-supplement div {
   display: flex;
+  align-items: center;
   gap: 3px;
 }
 
