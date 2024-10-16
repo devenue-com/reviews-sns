@@ -2,11 +2,6 @@ h3 {
   color: #000;
   font-size: 18px;
 }
-
-.modal {
-  display: none;
-}
-
 main {
   max-width: 736px;
   margin: auto;
@@ -21,7 +16,6 @@ main {
 .store-image img {
   max-width: 50%;
 }
-
 .store-assessment,
 .overview p {
   line-height: 35px;
@@ -32,7 +26,6 @@ main {
   gap: 10px;
   padding: 0 30px;
 }
-
 .stars span {
   display: flex;
   flex-direction: row-reverse;
@@ -140,12 +133,7 @@ main {
   h3 {
     font-size: 20px;
   }
-  .modal-content {
-    width: 450px;
-  }
-  .modal-content h2 {
-    font-size: 20px;
-  }
+
   main {
     padding: 0 10px;
   }
