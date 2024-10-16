@@ -80,6 +80,7 @@ main iframe {
   width: 100%;
   text-emphasis: center;
 }
+
 .store-info .stars span {
   display: flex;
   flex-direction: row-reverse;
@@ -91,6 +92,7 @@ main iframe {
   display: none;
 }
 .store-info .stars label {
+  cursor: default;
   color: #f8c601;
   font-size: 15px;
 }

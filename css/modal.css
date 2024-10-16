@@ -120,6 +120,7 @@ textarea::placeholder {
 .favorite-images {
   display: flex;
   overflow: scroll;
+  gap: 10px;
 }
 .favorite-images img {
   max-width: 100px;
@@ -162,5 +163,8 @@ input[type="submit"] {
     width: 550px;
     padding: 0 20px;
     padding-bottom: 10px;
+  }
+  input[type="submit"]:hover {
+    opacity: 0.5;
   }
 }
